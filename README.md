@@ -1,17 +1,22 @@
- <!-- ============================ PREMIUM HERO ============================ -->
+<!-- ============================ PREMIUM HERO ============================ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:0f0c29,50:302b63,100:24243e&text=SHOAIB%20ARSHAD&fontColor=ffffff&fontSize=62&fontAlignY=40&desc=Flutter%20%26%20Dart%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20Electron%20Desktop%20%E2%80%A2%20Database%20Engineering&descAlignY=62&descSize=16&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:6366f1&height=200&section=header&text=SHOAIB%20ARSHAD&fontSize=58&fontColor=ffffff&fontAlignY=42&animation=fadeIn&desc=FLUTTER%20%26%20DART%20%7C%20FULL%20STACK%20%7C%20ELECTRON%20DESKTOP&descSize=15&descAlignY=65&descColor=E0E7FF" width="100%" alt="Shoaib Arshad - Developer"/>
 
-<a href="https://shoaibarshad-seven.vercel.app">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=818CF8&center=true&vCenter=true&width=850&lines=Flutter+%26+Dart+Mobile+App+Developer;Full+Stack+Web+Developer+%7C+React+%2B+Next.js;Backend+Development+with+Node.js+%26+Express;Desktop+Applications+with+React+%2B+Electron;Database+Development+with+SQL+%2B+PostgreSQL" alt="Developer headline"/>
+<br/>
+
+<a href="https://readme-typing-svg.demolab.com">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=A5B4FC&center=true&vCenter=true&width=800&lines=Flutter+%26+Dart+Developer;Full+Stack+Web+Developer+%7C+React+%2B+Next.js;Desktop+Application+Developer+%7C+React+%2B+Electron;Database+Developer+%7C+SQL+%2B+PostgreSQL" alt="Developer roles"/>
 </a>
 
 <br/><br/>
 
-<a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-818cf8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/shabii804"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/shoaib-arshad-24200339b/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+
+</div>
 <a href="https://www.instagram.com/shoaib_arshad80/"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 <a href="https://www.facebook.com/profile.php?id=61594993012281"><img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
