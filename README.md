@@ -130,7 +130,7 @@ flowchart LR
     A[📱 Flutter App] --> D
     B[🌐 React / Next.js] --> C[⚙️ Node + Express API]
     C --> D[(🗄️ Database Layer)]
-    E[🖥️ Java Swing Desktop] -->|JDBC| F[(MySQL)]
+    E[🖥️ Desktop Applications] -->|JDBC| F[(MySQL)]
     D --> G[Supabase]
     D --> H[Firebase]
     D --> I[MongoDB]
