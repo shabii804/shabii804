@@ -34,7 +34,7 @@ const shoaib: Developer = {
   roles: [
     "Full Stack Developer",
     "Flutter / Mobile App Developer",
-    "Java Desktop Application Developer",
+    "Desktop Application Developer",
     "Database Developer & Manager",
   ],
   education: "BS Software Engineering, Riphah International University (CGPA 4.0)",
@@ -60,12 +60,12 @@ Cross-platform Flutter apps with authentication, cloud sync and clean UI
 <td width="25%" valign="top" align="center">
 <h3>🌐</h3>
 <b>Full Stack Web</b><br/><br/>
-Responsive React frontends with Node.js / Express APIs and secure data flow
+Responsive Next and  React frontends with Node.js / Express APIs and secure data flow
 </td>
 <td width="25%" valign="top" align="center">
 <h3>🖥️</h3>
 <b>Desktop Applications</b><br/><br/>
-Role-based Java Swing systems with MySQL / JDBC persistence
+Desktop Application with React and electron 
 </td>
 <td width="25%" valign="top" align="center">
 <h3>🗄️</h3>
