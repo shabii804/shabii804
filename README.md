@@ -4,124 +4,127 @@
 
 <br/>
 
-<a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1d4ed8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://instagram.com/shoaib_arshad80"><img src="https://img.shields.io/badge/Instagram-be185d?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="https://facebook.com/profile.php?id=61594993012281"><img src="https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+<a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="assets/social-linkedin.svg" width="52" alt="LinkedIn" /></a>&nbsp;&nbsp;
+<a href="https://github.com/shabii804"><img src="assets/social-github.svg" width="52" alt="GitHub" /></a>&nbsp;&nbsp;
+<a href="https://shoaibarshad-seven.vercel.app"><img src="assets/social-portfolio.svg" width="52" alt="Portfolio" /></a>&nbsp;&nbsp;
+<a href="https://instagram.com/shoaib_arshad80"><img src="assets/social-instagram.svg" width="52" alt="Instagram" /></a>&nbsp;&nbsp;
+<a href="https://facebook.com/profile.php?id=61594993012281"><img src="assets/social-facebook.svg" width="52" alt="Facebook" /></a>
 
-</div>
+<br/><br/>
 
-<br/>
+<img src="assets/h-about.svg" width="100%" alt="About Me" />
 
-## About Me
-
-I'm a **5th-semester BS Software Engineering** student at **Riphah International University, Islamabad** with a **4.0 / 4.0 CGPA**. I build complete products from end to end: the website, the desktop app, the mobile app and the database behind them. I'm currently a remote intern at **Developer Hub Corporation**.
-
-| | |
-|---|---|
-| 🎓 **Studying** | Software Construction & Development, OOP, data structures, UML modeling |
-| 💼 **Experience** | Remote intern at Developer Hub Corporation |
-| 🛠️ **Build** | Web apps, desktop apps, mobile apps, database systems |
-| 🎯 **Goal** | Grow into a professional full stack software engineer |
-| 📍 **Location** | Islamabad, Pakistan |
-| 🤝 **Open to** | Internships, freelance projects and collaborations |
+I'm a **5th-semester BS Software Engineering** student at **Riphah International University, Islamabad** with a **4.0 / 4.0 CGPA**.<br/>
+I build complete products end to end: the website, the desktop app, the mobile app and the database behind them.<br/>
+Currently a remote intern at **Developer Hub Corporation**.
 
 <br/>
 
-## Tech Stack
-
-### Programming Languages
-![Java](https://img.shields.io/badge/Java-f89820?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599c?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175c2?style=for-the-badge&logo=dart&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479a1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Web Development
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logo=vite&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
-
-### Mobile and Desktop Development
-![Flutter](https://img.shields.io/badge/Flutter-02569b?style=for-the-badge&logo=flutter&logoColor=white)
-![Java Swing](https://img.shields.io/badge/Java_Swing-f89820?style=for-the-badge&logo=openjdk&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-2b2e3a?style=for-the-badge&logo=electron&logoColor=9feaf9)
-![React](https://img.shields.io/badge/React_Desktop-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
-
-### Databases and Backend Services
-![MySQL](https://img.shields.io/badge/MySQL-00758f?style=for-the-badge&logo=mysql&logoColor=white)
-![JDBC](https://img.shields.io/badge/JDBC-5382a1?style=for-the-badge&logo=openjdk&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?style=for-the-badge&logo=supabase&logoColor=white)
-
-### Tools and Platforms
-![Git](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088ff?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007acc?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Visual Paradigm](https://img.shields.io/badge/Visual_Paradigm_(UML)-0f172a?style=for-the-badge)
-
-### Core Concepts
-`OOP` &nbsp; `Data Structures` &nbsp; `UML Modeling` &nbsp; `REST APIs` &nbsp; `Database Design` &nbsp; `Responsive UI` &nbsp; `Software Construction`
+<table>
+<tr>
+<td align="center" width="200"><h3>🎓</h3><b>Studying</b><br/>OOP · Data Structures<br/>UML · Software Construction</td>
+<td align="center" width="200"><h3>💼</h3><b>Experience</b><br/>Remote Intern<br/>Developer Hub Corporation</td>
+<td align="center" width="200"><h3>🛠️</h3><b>I Build</b><br/>Web · Desktop<br/>Mobile · Databases</td>
+</tr>
+<tr>
+<td align="center" width="200"><h3>🎯</h3><b>Goal</b><br/>Professional<br/>Full Stack Engineer</td>
+<td align="center" width="200"><h3>📍</h3><b>Location</b><br/>Islamabad<br/>Pakistan</td>
+<td align="center" width="200"><h3>🤝</h3><b>Open To</b><br/>Internships · Freelance<br/>Collaborations</td>
+</tr>
+</table>
 
 <br/>
 
-## Featured Projects
+<img src="assets/h-stack.svg" width="100%" alt="Tech Stack" />
 
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| 💸 **SpendSmart** | Expense tracker with budgets and spending insights | Flutter · Dart · Supabase | [Live](https://spend-smart-expensemanager.vercel.app) · [Code](https://github.com/shabii804/Spend-Smart) |
-| 📄 **PrivyPDF** | 32 privacy-first PDF tools that run 100% in the browser | HTML · JavaScript | [Code](https://github.com/shabii804/Converter-tool) |
-| 🏫 **School Management System** | Desktop app built with OOP (mini FYP) | Java · Swing | [Code](https://github.com/shabii804/School-Mangment-System-Mini-FYP-) |
-| 🛍️ **E-Shop Website** | eCommerce frontend with a Bootstrap UI | React · Bootstrap | [Code](https://github.com/shabii804/E-Shop-Website) |
-| 👗 **LuxeHer Fashion** | Luxury fashion e-commerce website | HTML · CSS | [Live](https://fashion-web-seven-peach.vercel.app) · [Code](https://github.com/shabii804/Fashion-Web) |
-| 🧩 **Nexus Project** | Internship project deployed on Vercel | TypeScript | [Live](https://nexus-project-by-shoaib.vercel.app) · [Code](https://github.com/shabii804/Nexus-project) |
+<img src="assets/tech.svg" width="100%" alt="Tech stack by category" />
+
+<br/>
+
+<img src="assets/h-projects.svg" width="100%" alt="Featured Projects" />
+
+<table>
+<tr>
+<td align="center" valign="top" width="270">
+<h3>💸 SpendSmart</h3>
+Expense tracker with budgets<br/>and spending insights<br/><br/>
+<code>Flutter</code> <code>Dart</code> <code>Supabase</code><br/><br/>
+<a href="https://spend-smart-expensemanager.vercel.app">Live Demo</a> · <a href="https://github.com/shabii804/Spend-Smart">Code</a>
+</td>
+<td align="center" valign="top" width="270">
+<h3>📄 PrivyPDF</h3>
+32 privacy-first PDF tools<br/>that run 100% in your browser<br/><br/>
+<code>HTML</code> <code>JavaScript</code><br/><br/>
+<a href="https://github.com/shabii804/Converter-tool">Code</a>
+</td>
+<td align="center" valign="top" width="270">
+<h3>🏫 School Management</h3>
+Desktop app built with OOP<br/>(mini FYP)<br/><br/>
+<code>Java</code> <code>Swing</code><br/><br/>
+<a href="https://github.com/shabii804/School-Mangment-System-Mini-FYP-">Code</a>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="270">
+<h3>🛍️ E-Shop Website</h3>
+eCommerce frontend with<br/>a Bootstrap UI<br/><br/>
+<code>React</code> <code>Bootstrap</code><br/><br/>
+<a href="https://github.com/shabii804/E-Shop-Website">Code</a>
+</td>
+<td align="center" valign="top" width="270">
+<h3>👗 LuxeHer Fashion</h3>
+Luxury fashion<br/>e-commerce website<br/><br/>
+<code>HTML</code> <code>CSS</code><br/><br/>
+<a href="https://fashion-web-seven-peach.vercel.app">Live Demo</a> · <a href="https://github.com/shabii804/Fashion-Web">Code</a>
+</td>
+<td align="center" valign="top" width="270">
+<h3>🧩 Nexus Project</h3>
+Internship project<br/>deployed on Vercel<br/><br/>
+<code>TypeScript</code><br/><br/>
+<a href="https://nexus-project-by-shoaib.vercel.app">Live Demo</a> · <a href="https://github.com/shabii804/Nexus-project">Code</a>
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>More academic projects</b></summary>
 <br/>
 
-- 🏥 [Hospital Management System](https://github.com/shabii804/Hospital-Management-System): C++ with data structures
-- 🎓 [Student Management in Java GUI](https://github.com/shabii804/Student-Managment-in-Java-GUI-using-OOP): Java GUI using OOP
-- 📟 [School Management System (C++)](https://github.com/shabii804/School-Mangment-System-C-): console app using structures and files
-- 📱 [FlutterTasks](https://github.com/shabii804/FlutterTasks): mobile application development class tasks
+🏥 [Hospital Management System](https://github.com/shabii804/Hospital-Management-System) · C++ with data structures<br/>
+🎓 [Student Management in Java GUI](https://github.com/shabii804/Student-Managment-in-Java-GUI-using-OOP) · Java GUI using OOP<br/>
+📟 [School Management System (C++)](https://github.com/shabii804/School-Mangment-System-C-) · console app using structures and files<br/>
+📱 [FlutterTasks](https://github.com/shabii804/FlutterTasks) · mobile application development class tasks
 
 </details>
 
 <br/>
 
-## GitHub Insights
+<img src="assets/h-insights.svg" width="100%" alt="GitHub Insights" />
 
 <img src="assets/stats.svg" width="100%" alt="GitHub overview" />
+<br/><br/>
+<img src="assets/streak.svg" width="100%" alt="Contribution streak" />
+<br/><br/>
+<img src="assets/contributions.svg" width="100%" alt="Contribution graph" />
 <br/><br/>
 <img src="assets/languages.svg" width="100%" alt="Most used languages" />
 <br/><br/>
 <img src="assets/trophies.svg" width="100%" alt="Achievements" />
-
-<br/>
-
+<br/><br/>
 <img src="https://raw.githubusercontent.com/shabii804/shabii804/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
 
 <br/>
 
-## Let's Connect
+<img src="assets/h-connect.svg" width="100%" alt="Let's Connect" />
 
-I'm open to **internships, freelance work and collaborations** on websites, desktop software, mobile apps and database systems.
+I'm open to **internships, freelance work and collaborations**<br/>on websites, desktop software, mobile apps and database systems.
 
-<div align="center">
+<br/>
 
-<a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/Visit_my_portfolio-1d4ed8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="assets/social-linkedin.svg" width="52" alt="LinkedIn" /></a>&nbsp;&nbsp;
+<a href="https://shoaibarshad-seven.vercel.app"><img src="assets/social-portfolio.svg" width="52" alt="Portfolio" /></a>&nbsp;&nbsp;
+<a href="https://github.com/shabii804"><img src="assets/social-github.svg" width="52" alt="GitHub" /></a>
+
+<br/>
 
 </div>
