@@ -1,161 +1,153 @@
-<!-- ===================== HEADER ===================== -->
+<!-- ============================ HERO ============================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Shoaib%20Arshad&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20%7C%20Flutter%20%7C%20Desktop%20%7C%20Database%20Developer&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,45:0f172a,100:1d4ed8&text=SHOAIB%20ARSHAD&fontSize=62&fontColor=f8fafc&fontAlignY=42&desc=Building%20Web%20%E2%80%A2%20Desktop%20%E2%80%A2%20Mobile%20%E2%80%A2%20Database%20Solutions&descSize=19&descAlignY=64&descColor=93c5fd" width="100%" alt="Shoaib Arshad" />
 
-<a href="https://github.com/shabii804">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+Node.js+%7C+Express;Flutter+%26+Supabase+Mobile+Apps+%F0%9F%93%B1;Java+Swing+%26+Electron+Desktop+Apps+%F0%9F%96%A5%EF%B8%8F;Database+Developer+%E2%80%94+MySQL+%7C+MongoDB+%7C+Firebase" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=760&height=40&lines=Full+Stack+Developer;Java+Desktop+Application+Developer;Flutter+Mobile+App+Developer;Database+Developer+%7C+MySQL+%E2%80%A2+MongoDB+%E2%80%A2+Supabase" alt="roles" />
 
-<br/>
+<p>
+  <a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-1d4ed8?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="https://img.shields.io/badge/LINKEDIN-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/shoaib_arshad80"><img src="https://img.shields.io/badge/INSTAGRAM-be185d?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://facebook.com/profile.php?id=61594993012281"><img src="https://img.shields.io/badge/FACEBOOK-1877f2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=shabii804&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
-<img src="https://img.shields.io/github/followers/shabii804?style=for-the-badge&logo=github&color=2c5364" alt="followers" />
-<img src="https://img.shields.io/github/stars/shabii804?style=for-the-badge&logo=github&color=2c5364" alt="stars" />
-
-<br/><br/>
-
-<a href="https://shoaibarshad-seven.vercel.app"><img src="https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://instagram.com/shoaib_arshad80"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="https://facebook.com/profile.php?id=61594993012281"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+<img src="https://komarev.com/ghpvc/?username=shabii804&label=PROFILE+VIEWS&color=1d4ed8&style=flat-square" />
+<img src="https://img.shields.io/badge/CGPA-4.0%20%2F%204.0-22c55e?style=flat-square" />
+<img src="https://img.shields.io/badge/Islamabad-Pakistan-0f172a?style=flat-square&logo=googlemaps&logoColor=white" />
 
 </div>
 
-<br/>
+---
 
-<!-- ===================== ABOUT ===================== -->
-## 👨‍💻 About Me
+## ⚡ Who I Am
+
+I'm a **BS Software Engineering** student at **Riphah International University, Islamabad**, and a developer who ships complete products: the website, the desktop app, the mobile app and the database behind them. I currently work as a remote intern at **Developer Hub Corporation**.
+
+---
+
+## 🛠️ What I Build
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="25%" valign="top" align="center">
 
-```yaml
-name:        Shoaib
-location:    Islamabad, Pakistan 🇵🇰
-education:   BS Software Engineering @ Riphah International University
-cgpa:        4.0 / 4.0
-internship:  Developer Hub Corporation (Remote)
-roles:
-  - Full Stack Developer
-  - Java Desktop Application Developer
-  - Mobile App Developer (Flutter)
-  - Database Developer
-```
+### 🌐 Web Apps
+Fast, responsive, SEO-ready websites and dashboards.
+
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-0b1220?style=flat-square&logo=react&logoColor=61dafb)
+![Node.js](https://img.shields.io/badge/Node.js-0b1220?style=flat-square&logo=nodedotjs&logoColor=6cc24a)
+![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express)
+![Tailwind](https://img.shields.io/badge/Tailwind-0b1220?style=flat-square&logo=tailwindcss&logoColor=38bdf8)
 
 </td>
-<td width="38%" valign="top">
+<td width="25%" valign="top" align="center">
 
-- 🌐 Building websites with **Next.js, React & Node.js**
-- 📱 Crafting mobile apps with **Flutter + Supabase / Firebase**
-- 🖥️ Shipping desktop apps with **Java Swing** and **React + Electron**
-- 🗄️ Designing and managing databases with **MySQL, MongoDB, Firebase & Supabase**
-- 🎓 Currently learning **software construction & design (UML)**
+### 🖥️ Desktop Apps
+Reliable desktop software with clean, usable interfaces.
+
+![Java](https://img.shields.io/badge/Java_Swing-b07219?style=flat-square&logo=openjdk&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-0b1220?style=flat-square&logo=electron&logoColor=9feaf9)
+![React](https://img.shields.io/badge/React-0b1220?style=flat-square&logo=react&logoColor=61dafb)
+![JDBC](https://img.shields.io/badge/JDBC-0b1220?style=flat-square&logo=databricks&logoColor=ff3621)
+
+</td>
+<td width="25%" valign="top" align="center">
+
+### 📱 Mobile Apps
+Cross-platform apps with real cloud backends.
+
+![Flutter](https://img.shields.io/badge/Flutter-02569b?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0b1220?style=flat-square&logo=dart&logoColor=00b4ab)
+![Supabase](https://img.shields.io/badge/Supabase-0b1220?style=flat-square&logo=supabase&logoColor=3ecf8e)
+![Firebase](https://img.shields.io/badge/Firebase-0b1220?style=flat-square&logo=firebase&logoColor=ffca28)
+
+</td>
+<td width="25%" valign="top" align="center">
+
+### 🗄️ Databases
+Schema design, queries and data management.
+
+![MySQL](https://img.shields.io/badge/MySQL-00758f?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-0b1220?style=flat-square&logo=mongodb&logoColor=47a248)
+![Supabase](https://img.shields.io/badge/Supabase-0b1220?style=flat-square&logo=supabase&logoColor=3ecf8e)
+![Firebase](https://img.shields.io/badge/Firebase-0b1220?style=flat-square&logo=firebase&logoColor=ffca28)
 
 </td>
 </tr>
 </table>
 
-<!-- ===================== TECH STACK ===================== -->
-## 🧰 Tech Stack
-
 <div align="center">
 
-**Web**<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,express,tailwind,bootstrap,vite&perline=10" alt="web" />
-
-**Mobile**<br/>
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,supabase&perline=10" alt="mobile" />
-
-**Desktop**<br/>
-<img src="https://skillicons.dev/icons?i=java,electron,react&perline=10" alt="desktop" />
-
-**Databases**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase&perline=10" alt="databases" />
-
-**Tools**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,figma&perline=10" alt="tools" />
+![HTML5](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logo=vite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
-<!-- ===================== FEATURED PROJECTS ===================== -->
+---
+
 ## 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💸 SpendSmart
-Student expense-tracking mobile app with goals, transactions and spending insights.
+#### 💸 SpendSmart
+A student expense tracker with transactions, goals and spending insights.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+`Flutter` `Supabase` `Mobile`
 
-[🔗 Live Demo](https://spend-smart-expensemanager.vercel.app) · [📂 Repo](https://github.com/shabii804/Spend-Smart)
+[**Live Demo →**](https://spend-smart-expensemanager.vercel.app) · [Repository](https://github.com/shabii804/Spend-Smart)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Portfolio Website
-Personal portfolio with a modern, responsive, animated UI.
+#### 🌍 Personal Portfolio
+A responsive, animated portfolio showing my web, desktop, mobile and database work.
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+`Next.js` `Vercel` `Web`
 
-[🔗 Live Demo](https://shoaibarshad-seven.vercel.app)
+[**Live Demo →**](https://shoaibarshad-seven.vercel.app)
 
 </td>
 </tr>
 </table>
 
-> 💡 Add more cards by copying a `<td>` block above, or use the pinned-repo section on your profile.
+---
 
-<!-- ===================== GITHUB STATS ===================== -->
-## 📊 GitHub Analytics
+## 📊 GitHub Insights
 
 <div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shabii804&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true" alt="stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shabii804&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8" alt="top languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=shabii804&theme=tokyonight&hide_border=true&background=0d1117" alt="streak" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shabii804&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true&custom_title=Contribution%20Activity%20Graph" alt="activity graph" width="100%" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=shabii804&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophies" />
-
+  <img src="assets/stats.svg" height="250" alt="GitHub stats" />
+  <img src="assets/languages.svg" height="250" alt="Most used languages" />
+  <br/><br/>
+  <img src="assets/trophies.svg" alt="Trophies" />
 </div>
 
-<!-- ===================== CONTRIBUTION SNAKE ===================== -->
-<!--
-  OPTIONAL: Contribution snake animation.
-  1. Create the file .github/workflows/snake.yml in this repo (code in the guide).
-  2. Then uncomment the block below.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/shabii804/shabii804/output/github-snake-dark.svg" alt="snake" width="100%" />
-</div>
--->
-
-<!-- ===================== CONNECT ===================== -->
-## 🤝 Let's Connect
-
-I'm open to **internships, freelance projects and collaborations**. If you have an idea, let's build it.
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-38BDF8?style=for-the-badge)](https://shoaibarshad-seven.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/💼_Message_on_LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/shoaib-arshad-24200339b)
-
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shabii804/shabii804/output/github-snake-dark.svg" alt="Contribution snake" width="100%" />
+</div>
+
+---
+
+## 🤝 Let's Work Together
+
+Open to **internships, freelance projects and collaborations**: websites, desktop software, mobile apps and database systems.
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Visit%20my%20portfolio-1d4ed8?style=for-the-badge&logo=vercel&logoColor=white)](https://shoaibarshad-seven.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/Message%20me%20on%20LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shoaib-arshad-24200339b)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:1d4ed8,100:020617&section=footer" width="100%" />
 
 </div>
