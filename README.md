@@ -22,7 +22,34 @@
 
 ## ⚡ Who I Am
 
-I'm a **BS Software Engineering** student at **Riphah International University, Islamabad**, and a developer who ships complete products: the website, the desktop app, the mobile app and the database behind them. I currently work as a remote intern at **Developer Hub Corporation**.
+I'm **Shoaib**, a **5th-semester BS Software Engineering** student at **Riphah International University, Islamabad**, holding a **4.0 / 4.0 CGPA**. I build complete products end to end: the website, the desktop app, the mobile app and the database behind them.
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+- 🎓 **Studying:** Software Construction & Development, OOP, data structures and UML design
+- 💼 **Experience:** remote intern at **Developer Hub Corporation**
+- 🌐 **Web:** Next.js, React, Node.js and Express
+- 🖥️ **Desktop:** Java Swing and React + Electron
+- 📱 **Mobile:** Flutter with Supabase and Firebase
+- 🗄️ **Databases:** MySQL, MongoDB, Firebase and Supabase
+
+</td>
+<td width="45%" valign="top">
+
+```text
+🎯 Goal      Become a professional
+             full stack software engineer
+🚀 Focus     Real projects over tutorials
+📍 Based in  Islamabad, Pakistan
+🤝 Open to   Internships, freelance,
+             collaborations
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -88,6 +115,9 @@ Schema design, queries and data management.
 ![Git](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
+![Java](https://img.shields.io/badge/Java-b07219?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599c?style=for-the-badge&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
 
 </div>
 
@@ -97,28 +127,81 @@ Schema design, queries and data management.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 #### 💸 SpendSmart
-A student expense tracker with transactions, goals and spending insights.
+Expense tracker with budgets and spending insights.
 
-`Flutter` `Supabase` `Mobile`
+`Flutter` `Dart` `Supabase`
 
-[**Live Demo →**](https://spend-smart-expensemanager.vercel.app) · [Repository](https://github.com/shabii804/Spend-Smart)
+[Live](https://spend-smart-expensemanager.vercel.app) · [Code](https://github.com/shabii804/Spend-Smart)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-#### 🌍 Personal Portfolio
-A responsive, animated portfolio showing my web, desktop, mobile and database work.
+#### 📄 PrivyPDF
+32 privacy-first PDF tools that run 100% in your browser.
 
-`Next.js` `Vercel` `Web`
+`HTML` `JavaScript` `Web`
 
-[**Live Demo →**](https://shoaibarshad-seven.vercel.app)
+[Code](https://github.com/shabii804/Converter-tool)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🏫 School Management System
+Java Swing desktop app (mini FYP) built with OOP.
+
+`Java` `Swing` `Desktop`
+
+[Code](https://github.com/shabii804/School-Mangment-System-Mini-FYP-)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+#### 🛍️ E-Shop Website
+eCommerce frontend built with React and Bootstrap.
+
+`React` `Bootstrap` `Web`
+
+[Code](https://github.com/shabii804/E-Shop-Website)
+
+</td>
+<td width="33%" valign="top">
+
+#### 👗 LuxeHer Fashion
+Luxury fashion e-commerce website.
+
+`HTML` `CSS` `Web`
+
+[Live](https://fashion-web-seven-peach.vercel.app) · [Code](https://github.com/shabii804/Fashion-Web)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🧩 Nexus Project
+Internship project, deployed on Vercel.
+
+`TypeScript` `Web`
+
+[Live](https://nexus-project-by-shoaib.vercel.app) · [Code](https://github.com/shabii804/Nexus-project)
 
 </td>
 </tr>
 </table>
+
+<details>
+<summary><b>More academic projects</b></summary>
+<br/>
+
+- 🏥 [Hospital Management System](https://github.com/shabii804/Hospital-Management-System): C++ with data structures
+- 🎓 [Student Management in Java GUI](https://github.com/shabii804/Student-Managment-in-Java-GUI-using-OOP): Java GUI using OOP
+- 📟 [School Management System (C++)](https://github.com/shabii804/School-Mangment-System-C-): console app using structures and files
+- 📱 [FlutterTasks](https://github.com/shabii804/FlutterTasks): mobile application development class tasks
+
+</details>
 
 ---
 
