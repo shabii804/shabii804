@@ -49,7 +49,7 @@ def circle_icon(cx, cy, r, key=None, hexc=None, text=None, label=None, ring=None
         size = r * (0.72 if len(text) <= 2 else 0.5)
         s += f'<text x="{cx}" y="{cy + size * 0.35:.1f}" {F} font-size="{size:.0f}" font-weight="800" fill="#e2e8f0" text-anchor="middle">{text}</text>'
     if label:
-        s += f'<text x="{cx}" y="{cy + r + 22}" {F} font-size="14" font-weight="600" fill="#cbd5e1" text-anchor="middle">{label}</text>'
+        s += f'<text x="{cx}" y="{cy + r + 19}" {F} font-size="12.5" font-weight="600" fill="#cbd5e1" text-anchor="middle">{label}</text>'
     return s
 
 
@@ -82,15 +82,17 @@ def banner():
 
 # ---------------- SECTION HEADINGS ----------------
 def heading(fname, title):
-    H = 64
-    cx, cy = W / 2, 32
-    tws = tw(title, 26, 0.6)
+    H = 60
+    cx = W / 2
+    tws = tw(title, 24, 0.6)
     s = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
-    lx2, rx1 = cx - tws / 2 - 28, cx + tws / 2 + 28
-    s += f'<line x1="40" y1="{cy}" x2="{lx2}" y2="{cy}" stroke="url(#ac)" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>'
-    s += f'<line x1="{rx1}" y1="{cy}" x2="{W-40}" y2="{cy}" stroke="url(#ac)" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>'
-    s += f'<circle cx="{lx2+10}" cy="{cy}" r="4" fill="#38bdf8"/><circle cx="{rx1-10}" cy="{cy}" r="4" fill="#818cf8"/>'
-    s += f'<text x="{cx}" y="{cy+9}" {F} font-size="26" font-weight="800" fill="#f1f5f9" text-anchor="middle">{esc(title)}</text></svg>'
+    s += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="url(#bg)" stroke="#2f4678"/>'
+    s += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="url(#glow)"/>'
+    lx2, rx1 = cx - tws / 2 - 26, cx + tws / 2 + 26
+    s += f'<line x1="34" y1="30" x2="{lx2}" y2="30" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>'
+    s += f'<line x1="{rx1}" y1="30" x2="{W-34}" y2="30" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>'
+    s += f'<circle cx="{lx2+8}" cy="30" r="4" fill="#38bdf8"/><circle cx="{rx1-8}" cy="30" r="4" fill="#818cf8"/>'
+    s += f'<text x="{cx}" y="39" {F} font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">{esc(title)}</text></svg>'
     write(fname, s)
 
 
@@ -109,14 +111,14 @@ CONCEPTS = ["OOP", "Data Structures", "UML Modeling", "REST APIs", "Database Des
 
 
 def tech():
-    cell, r = 88, 30
+    cell, r = 78, 21
     y = 14
     body = ""
     for title, items in CATS:
         tws_ = tw(title, 17, 0.6) + 36
-        body += f'<rect x="{W/2-tws_/2:.1f}" y="{y}" width="{tws_:.1f}" height="32" rx="16" fill="#38bdf8" fill-opacity="0.09" stroke="#38bdf8" stroke-opacity="0.35"/>'
-        body += f'<text x="{W/2}" y="{y+22}" {F} font-size="16" font-weight="700" fill="#bae6fd" text-anchor="middle">{esc(title)}</text>'
-        y += 44
+        body += f'<rect x="{W/2-tws_/2:.1f}" y="{y}" width="{tws_:.1f}" height="32" rx="16" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.6"/>'
+        body += f'<text x="{W/2}" y="{y+22}" {F} font-size="16" font-weight="700" fill="#e0f2fe" text-anchor="middle">{esc(title)}</text>'
+        y += 42
         n = len(items)
         x0 = W / 2 - n * cell / 2 + cell / 2
         for i, it in enumerate(items):
@@ -124,11 +126,11 @@ def tech():
             hexc = it[2] if len(it) > 2 else None
             text = it[3] if len(it) > 3 else None
             body += circle_icon(x0 + i * cell, y + r + 4, r, key=key, hexc=hexc, text=text, label=label)
-        y += 2 * r + 4 + 40
+        y += 2 * r + 4 + 34
     # concepts
     tws_ = tw("Core Concepts", 17, 0.6) + 36
     body += f'<rect x="{W/2-tws_/2:.1f}" y="{y}" width="{tws_:.1f}" height="32" rx="16" fill="#818cf8" fill-opacity="0.10" stroke="#818cf8" stroke-opacity="0.4"/>'
-    body += f'<text x="{W/2}" y="{y+22}" {F} font-size="16" font-weight="700" fill="#c7d2fe" text-anchor="middle">Core Concepts</text>'
+    body += f'<text x="{W/2}" y="{y+22}" {F} font-size="16" font-weight="700" fill="#eef2ff" text-anchor="middle">Core Concepts</text>'
     y += 48
     rows, cur, curw = [], [], 0
     widths = [tw(c, 14, 0.58) + 32 for c in CONCEPTS]

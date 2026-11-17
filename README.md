@@ -105,6 +105,8 @@ Internship project<br/>deployed on Vercel<br/><br/>
 <br/><br/>
 <img src="assets/streak.svg" width="100%" alt="Contribution streak" />
 <br/><br/>
+<img src="assets/activity.svg" width="100%" alt="Daily contribution activity" />
+<br/><br/>
 <img src="assets/contributions.svg" width="100%" alt="Contribution graph" />
 <br/><br/>
 <img src="assets/languages.svg" width="100%" alt="Most used languages" />

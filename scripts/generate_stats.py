@@ -244,3 +244,39 @@ if days:
     body += f'<text x="{W/2+10}" y="{ly+10}" {F} font-size="12" fill="#8fa3c4">More</text>'
     open(f"{OUT}/contributions.svg", "w").write(card(ly + 40, "Contribution Graph", "daily activity over the last year", body))
     print("streak:", cur, "longest:", longest, "total:", total_all)
+
+    # --- daily activity line chart (last 30 days): goes up and down with real daily counts ---
+    N = 30
+    series = [(today - dt.timedelta(days=N - 1 - i), days.get(str(today - dt.timedelta(days=N - 1 - i)), 0)) for i in range(N)]
+    top_v = max(max(c for _, c in series), 4)
+    top_v = ((top_v + 3) // 4) * 4
+    gx0, gx1, gy0, gy1 = 88, W - 44, 112, 292
+    px = lambda i: gx0 + (gx1 - gx0) * i / (N - 1)
+    py = lambda v: gy1 - (gy1 - gy0) * v / top_v
+    body = ""
+    for k in range(5):
+        v = top_v * k / 4
+        y = py(v)
+        body += f'<line x1="{gx0}" y1="{y:.1f}" x2="{gx1}" y2="{y:.1f}" stroke="#243556" stroke-dasharray="3 5"/>'
+        body += f'<text x="{gx0-12}" y="{y+5:.1f}" {F} font-size="13" fill="#8fa3c4" text-anchor="end">{int(v)}</text>'
+    pts = [(px(i), py(c)) for i, (_, c) in enumerate(series)]
+    path = f"M{pts[0][0]:.1f},{pts[0][1]:.1f}"
+    for i in range(1, len(pts)):
+        x0_, y0_ = pts[i - 1]
+        x1_, y1_ = pts[i]
+        mx_ = (x0_ + x1_) / 2
+        path += f" C{mx_:.1f},{y0_:.1f} {mx_:.1f},{y1_:.1f} {x1_:.1f},{y1_:.1f}"
+    area = path + f" L{pts[-1][0]:.1f},{gy1} L{pts[0][0]:.1f},{gy1} Z"
+    body += '<defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.45"/><stop offset="1" stop-color="#818cf8" stop-opacity="0.02"/></linearGradient></defs>'
+    body += f'<path d="{area}" fill="url(#fill)"/><path d="{path}" fill="none" stroke="url(#ac)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>'
+    peak = max(range(N), key=lambda i: series[i][1])
+    for i, (d_, c) in enumerate(series):
+        big = i == peak and c > 0
+        body += f'<circle cx="{pts[i][0]:.1f}" cy="{pts[i][1]:.1f}" r="{6 if big else 3.5}" fill="{"#fbbf24" if big else "#0b1220"}" stroke="{"#fbbf24" if big else "#38bdf8"}" stroke-width="2"/>'
+    if series[peak][1] > 0:
+        tx = min(max(pts[peak][0], 130), W - 130)
+        body += f'<text x="{tx:.1f}" y="{pts[peak][1]-14:.1f}" {F} font-size="14" font-weight="700" fill="#fbbf24" text-anchor="middle">Peak: {series[peak][1]} on {series[peak][0].strftime("%b %d").replace(" 0", " ")}</text>'
+    for i in range(0, N, 5):
+        body += f'<text x="{px(i):.1f}" y="{gy1+26}" {F} font-size="13" fill="#8fa3c4" text-anchor="middle">{series[i][0].strftime("%b %d").replace(" 0", " ")}</text>'
+    body += f'<text x="{px(N-1):.1f}" y="{gy1+26}" {F} font-size="13" font-weight="700" fill="#e2e8f0" text-anchor="middle">Today</text>'
+    open(f"{OUT}/activity.svg", "w").write(card(gy1 + 46, "Contribution Activity", f"contributions per day · last {N} days · {sum(c for _, c in series)} total", body))
