@@ -265,3 +265,48 @@ if days:
     save("contributions.svg", card(ly + 30, "Contribution Graph", "daily activity over the last year", body))
     print("streak:", cur, "longest:", longest, "total:", total_all)
 print("done:", len(own), "repos,", stars, "stars,", commits, "commits")
+
+
+# ---------- RECENT PROJECTS (auto-updated) ----------
+from html import escape as esc
+
+recent = sorted([r for r in own if r["name"].lower() != USER.lower()], key=lambda r: r["pushed_at"], reverse=True)[:4]
+if recent:
+    cw_, ch_ = (W - 56) / 2, 64
+    body = ""
+    for i, r in enumerate(recent):
+        x, y = 20 + (i % 2) * (cw_ + 16), 76 + (i // 2) * (ch_ + 10)
+        lang = r["language"] or "Code"
+        desc = (r["description"] or "No description yet").strip()
+        desc = desc if len(desc) <= 62 else desc[:59].rstrip() + "..."
+        body += f'<rect x="{x}" y="{y}" width="{cw_}" height="{ch_}" rx="10" fill="#0d1730" stroke="#243556"/>'
+        body += f'<text x="{x+16}" y="{y+23}" {F} font-size="14" font-weight="700" fill="#e2e8f0">{esc(r["name"][:34])}</text>'
+        body += f'<text x="{x+cw_-16}" y="{y+23}" {F} font-size="12" fill="#fbbf24" text-anchor="end">&#9733; {r["stargazers_count"]}</text>'
+        body += f'<text x="{x+16}" y="{y+41}" {F} font-size="12" fill="#9fb2d3">{esc(desc)}</text>'
+        body += f'<circle cx="{x+21}" cy="{y+54}" r="4" fill="{COLORS.get(lang, "#38bdf8")}"/><text x="{x+30}" y="{y+58}" {F} font-size="11" fill="#8fa3c4">{esc(lang)}</text>'
+        body += f'<text x="{x+cw_-16}" y="{y+58}" {F} font-size="11" fill="#8fa3c4" text-anchor="end">updated {dt.date.fromisoformat(r["pushed_at"][:10]).strftime("%b %d").replace(" 0", " ")}</text>'
+    save("recent.svg", card(76 + 2 * (ch_ + 10) + 4, "Recently Active Projects", "auto-updated from my latest pushes", body))
+
+# ---------- MOST PRODUCTIVE DAY (auto-updated) ----------
+if days:
+    cutoff = dt.date.today() - dt.timedelta(days=365)
+    wk = [0] * 7
+    for k, c in days.items():
+        d0 = dt.date.fromisoformat(k)
+        if d0 > cutoff:
+            wk[d0.weekday()] += c
+    names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    best = max(range(7), key=lambda i: wk[i])
+    mx = max(wk) or 1
+    gx, gw, base, hmax = 70, W - 140, 176, 84
+    bw_ = gw / 7
+    body = ""
+    for i, v in enumerate(wk):
+        h = max(4, hmax * v / mx)
+        x = gx + i * bw_ + bw_ * 0.2
+        c = "url(#ac)" if i == best else "#1e3a8a"
+        body += f'<rect x="{x:.1f}" y="{base-h:.1f}" width="{bw_*0.6:.1f}" height="{h:.1f}" rx="6" fill="{c}"/>'
+        body += f'<text x="{x+bw_*0.3:.1f}" y="{base-h-6:.1f}" {F} font-size="12" font-weight="700" fill="{"#fbbf24" if i == best else "#9fb2d3"}" text-anchor="middle">{v}</text>'
+        body += f'<text x="{x+bw_*0.3:.1f}" y="{base+18}" {F} font-size="12" fill="{"#e2e8f0" if i == best else "#8fa3c4"}" font-weight="{700 if i == best else 400}" text-anchor="middle">{names[i]}</text>'
+    full = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"][best]
+    save("weekday.svg", card(base + 34, "Most Productive Day", f"{full} is my busiest day · contributions by weekday, last year", body))

@@ -85,10 +85,12 @@ Remote intern at **Developer Hub Corporation** · Open to internships, freelance
 
 <img src="assets/h-insights.svg" width="100%" alt="GitHub Insights" />
 
+<img src="assets/recent.svg" width="100%" alt="Recently active projects" />
 <img src="assets/stats.svg" width="100%" alt="GitHub overview" />
 <img src="assets/streak.svg" width="100%" alt="Contribution streak" />
 <img src="assets/activity.svg" width="100%" alt="Daily contribution activity" />
 <img src="assets/contributions.svg" width="100%" alt="Contribution graph" />
+<img src="assets/weekday.svg" width="100%" alt="Most productive day" />
 <img src="assets/languages.svg" width="100%" alt="Most used languages" />
 <img src="assets/trophies.svg" width="100%" alt="Achievements" />
 <img src="https://raw.githubusercontent.com/shabii804/shabii804/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
