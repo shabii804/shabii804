@@ -20,6 +20,14 @@ Remote intern at **Developer Hub Corporation** · Open to internships, freelance
 
 <img src="assets/tech.svg" width="100%" alt="Tech stack by category" />
 
+<img src="assets/h-services.svg" width="100%" alt="What I Build" />
+
+<img src="assets/services.svg" width="100%" alt="Services" />
+
+<img src="assets/h-journey.svg" width="100%" alt="Education and Experience" />
+
+<img src="assets/journey.svg" width="100%" alt="Education and experience" />
+
 <img src="assets/h-projects.svg" width="100%" alt="Featured Projects" />
 
 <table>
@@ -86,6 +94,8 @@ Remote intern at **Developer Hub Corporation** · Open to internships, freelance
 <img src="https://raw.githubusercontent.com/shabii804/shabii804/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
 
 <img src="assets/h-connect.svg" width="100%" alt="Let's Connect" />
+
+<img src="assets/hire.svg" width="100%" alt="Available for internships, freelance and collaborations" />
 
 <a href="https://linkedin.com/in/shoaib-arshad-24200339b"><img src="assets/social-linkedin.svg" width="40" alt="LinkedIn" /></a>&nbsp;
 <a href="https://shoaibarshad-seven.vercel.app"><img src="assets/social-portfolio.svg" width="40" alt="Portfolio" /></a>&nbsp;

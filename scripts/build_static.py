@@ -159,9 +159,65 @@ def social():
         write(f"social-{name}.svg", s)
 
 
+# ---------------- SERVICES ----------------
+def services():
+    items = [("react", "Web Applications", ["Responsive, fast websites", "and full stack web apps"]),
+             ("electron", "Desktop Software", ["Java Swing and Electron", "apps with clean interfaces"]),
+             ("flutter", "Mobile Apps", ["Cross-platform Flutter apps", "with cloud backends"]),
+             ("mysql", "Database Systems", ["Schema design, queries", "MySQL, MongoDB, Supabase"])]
+    H = 148
+    s = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
+    s += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="url(#bg)" stroke="#243556"/>'
+    cw = (W - 40) / 4
+    for i, (key, title, lines) in enumerate(items):
+        cx = 20 + i * cw + cw / 2
+        if i:
+            s += f'<line x1="{20+i*cw:.0f}" y1="22" x2="{20+i*cw:.0f}" y2="{H-22}" stroke="#243556"/>'
+        s += circle_icon(cx, 44, 22, key=key)
+        s += f'<text x="{cx:.0f}" y="94" {F} font-size="14" font-weight="700" fill="#f1f5f9" text-anchor="middle">{title}</text>'
+        for j, ln in enumerate(lines):
+            s += f'<text x="{cx:.0f}" y="{114+j*16}" {F} font-size="12" fill="#9fb2d3" text-anchor="middle">{ln}</text>'
+    write("services.svg", s + "</svg>")
+
+
+# ---------------- JOURNEY (education + experience) ----------------
+def journey():
+    H = 150
+    s = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
+    s += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="url(#bg)" stroke="#243556"/>'
+    s += f'<line x1="{W/2}" y1="22" x2="{W/2}" y2="{H-22}" stroke="#243556"/>'
+    cols = [("EDUCATION", "#38bdf8", "BS Software Engineering", "Riphah International University, Islamabad",
+             ["5th semester · CGPA 4.0 / 4.0", "OOP · Data Structures · UML · Software Construction"]),
+            ("EXPERIENCE", "#818cf8", "Remote Intern", "Developer Hub Corporation",
+             ["Remote internship", "Built the Nexus project (TypeScript, deployed on Vercel)"])]
+    for i, (tag, c, title, org, lines) in enumerate(cols):
+        x = 36 + i * (W / 2)
+        s += f'<rect x="{x}" y="22" width="{tw(tag, 11, 0.7)+24:.0f}" height="22" rx="11" fill="{c}" fill-opacity="0.14" stroke="{c}" stroke-opacity="0.55"/>'
+        s += f'<text x="{x+(tw(tag, 11, 0.7)+24)/2:.0f}" y="37" {F} font-size="11" font-weight="800" fill="{c}" letter-spacing="1.2" text-anchor="middle">{tag}</text>'
+        s += f'<text x="{x}" y="70" {F} font-size="17" font-weight="800" fill="#f8fafc">{esc(title)}</text>'
+        s += f'<text x="{x}" y="90" {F} font-size="13" font-weight="600" fill="{c}">{esc(org)}</text>'
+        for j, ln in enumerate(lines):
+            s += f'<circle cx="{x+4}" cy="{108+j*18}" r="2.5" fill="{c}"/><text x="{x+14}" y="{112+j*18}" {F} font-size="12" fill="#b4c2dc">{esc(ln)}</text>'
+    write("journey.svg", s + "</svg>")
+
+
+# ---------------- HIRE CTA ----------------
+def hire():
+    H = 96
+    cx = W / 2
+    s = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}'
+    s += f'<rect width="{W}" height="{H}" rx="14" fill="url(#bg)"/><rect width="{W}" height="{H}" rx="14" fill="url(#glow)"/><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="none" stroke="#2f4678"/>'
+    s += f'<circle cx="{cx-290}" cy="34" r="5" fill="#34d399"/><text x="{cx}" y="40" {F} font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">Available for internships, freelance and collaborations</text>'
+    s += f'<text x="{cx}" y="66" {F} font-size="13.5" fill="#9fb2d3" text-anchor="middle">Have a project or an opening? Message me on LinkedIn or check my portfolio below.</text>'
+    write("hire.svg", s + "</svg>")
+
+
 banner()
+services()
+journey()
+hire()
 for f, t in [("h-about.svg", "About Me"), ("h-stack.svg", "Tech Stack"), ("h-projects.svg", "Featured Projects"),
-             ("h-insights.svg", "GitHub Insights"), ("h-connect.svg", "Let's Connect")]:
+             ("h-services.svg", "What I Build"), ("h-journey.svg", "Education & Experience"), ("h-insights.svg", "GitHub Insights"), ("h-connect.svg", "Let's Connect")]:
     heading(f, t)
 tech()
 social()
