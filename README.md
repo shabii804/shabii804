@@ -14,6 +14,8 @@
 I build complete products: website, desktop app, mobile app and the database behind them.<br/>
 Remote intern at **Developer Hub Corporation** · Open to internships, freelance and collaborations.
 
+<sub>🔭 **Currently:** building mobile apps with Flutter &amp; Supabase · learning software construction and UML design · improving my portfolio</sub>
+
 <img src="assets/h-stack.svg" width="100%" alt="Tech Stack" />
 
 <img src="assets/tech.svg" width="100%" alt="Tech stack by category" />
